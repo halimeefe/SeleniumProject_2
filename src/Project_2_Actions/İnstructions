@@ -1,0 +1,51 @@
+
+
+
+
+url: http://demowebshop.tricentis.com/
+
+ ➢ Bu projeyi Java ve Selenium kütüphanesini kullanarak test edeceksiniz
+ ➢ Action class kullanılacak
+
+ Test Senaryoları
+
+Senaryo 1: Kayıt oluşturma Testi
+➢ Siteye gidin
+➢ Register butonuna tıklayın
+➢ Kişisel bilgileri doldurun ve register butonuna tıklayın
+➢ Başarılı bir şekilde kaydolduğunuzu doğrulayınız
+
+
+Senaryo 2: Negatif kayıt Testi
+➢ Siteye gidin
+➢ Register butonuna tıklayın
+➢ Yukarda kaydolduğunuz email ile kaydolmaya calisin
+➢ Register butonuna tıkayınız
+➢ “The specified email already exists” mesajının görüldüğünü doğrulayınız
+
+
+Senaryo 3: Login Test
+➢ Siteye gidin
+➢ Login butonuna tıklayın
+➢ Geçerli email ve password I giriniz
+➢ Login butonuna tıklatınız ve login olduğunuzu doğrulayınız
+
+
+Senaryo 4: Negatif Login Test
+➢ Siteye gidin
+➢ Login butonuna tıklayın
+➢ Geçersiz email veya password giriniz
+➢ Login butonuna tıklatınız ve login olamadığınızı doğrulay
+
+
+Senaryo 5: Order Test
+➢ Siteye gidin
+➢ Login olun
+➢ Computers>Notebook un altında “14.1-inch Laptop” adli ürüne tıklatınız
+➢ Ad to Cart butonuna tıklatınız ve urunun başarılı bir şekilde eklendiğini doğrulayın
+➢ Shopping cart butonuna tıklatıp sepetinize gidin ve urunun orda görüldüğünü doğrulayın
+➢ Agree check box tıklatıp Sartları Kabul edin
+➢ Checkout butonuna tıklatın
+➢ Açılan sayfada tüm bilgileri doldurun ve confirm order butonuna tıklatın
+➢ “Your order has been successfully processed!” mesajının görüldüğ
+
